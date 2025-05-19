@@ -1,12 +1,34 @@
-# React + Vite
+# Projeto Netoflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto consiste em um catálogo de filmes fornecido através de uma API pública: https://www.themoviedb.org/.
 
-Currently, two official plugins are available:
+## Design do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![alt text](image.png)
 
-## Expanding the ESLint configuration
+## Como executar o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clonar o projeto ou baixar os arquivo para a sua máquina.
+2. Instalar as dependências executando o comando abaixo dentro da pasta raiz do projeto:
+
+```
+npm i
+```
+3. Executar a aplicação com o comando: 
+
+```
+npm run dev
+```
+4. Abrir o endereço fornecido em algum navegador:
+   
+```
+http://localhost:5173/ 
+```
+
+## Dev Log
+
+**Aula 01 - 19/05 (segunda)**
+
+- [x] Criação do projeto com o comando **npm create vite@latest**.
+  - [x] Criação dos componentes Header e Button
+  - [x] Criação do componente Home para representar a página principal
