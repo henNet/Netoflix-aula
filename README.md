@@ -27,6 +27,12 @@ http://localhost:5173/
 
 ## Dev Log
 
+**Aula 02 - 20/05 (terça)**
+
+- [x] Criação de componentes e da conta para acessar a api TMDB.
+  - [x] Criação da requisição para acessar os filmes da api
+  - [x] Criação dos componentes MovieContainer e MovieCard
+
 **Aula 01 - 19/05 (segunda)**
 
 - [x] Criação do projeto com o comando **npm create vite@latest**.
